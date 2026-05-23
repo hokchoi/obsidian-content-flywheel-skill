@@ -1,0 +1,24 @@
+{
+  "skill_name": "obsidian-content-flywheel",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Process this podcast transcript into an Obsidian knowledge matrix and generate 5 topic seeds for a creator audience.",
+      "expected_output": "A cleaned source summary, four-dimensional matrix, backlink suggestions, and topic seeds with thesis, audience pain, proof, and risk.",
+      "files": ["examples/sample-raw-input.md"]
+    },
+    {
+      "id": 2,
+      "prompt": "Build a GitHub-ready Codex skill for turning saved articles and video transcripts into a sustainable Obsidian content workflow.",
+      "expected_output": "A skill package with SKILL.md, templates, references, examples, and clear usage instructions.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Take one extracted topic seed and create COPE drafts for X, Xiaohongshu, newsletter, and short video.",
+      "expected_output": "Platform-specific drafts that use different structures for instant, depth, and dynamic media rather than repeating the same copy.",
+      "files": []
+    }
+  ]
+}
+
